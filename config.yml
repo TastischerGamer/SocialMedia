@@ -1,0 +1,4 @@
+system:
+   lang: 'DE'
+   permissions:
+      Socialmedia_edit: 'social.edit'
