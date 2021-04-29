@@ -1,42 +1,10 @@
 name: SocialMedia
-version: 1.0
+version: 1.1
 author: TastischerGamer
-main: me.TastischerGamer.SocialMedia.main.Main
+main: me.TastischerGamer.SocialMedia.main.SocialMediaPlugin
 
 commands:
-   discord:
-      description: A SocialMedia Command
-      Usage: /discord
-      aliases: [dc]
-
-   facebook:
-      description: A SocialMedia Command
-      Usage: /facebook
-      aliases: [fb]
-      
-   teamspeak:
-      description: A SocialMedia Command
-      Usage: /teamspeak
-      aliases: [ts]
-      
-   twitch:
-      description: A SocialMedia Command
-      Usage: /twitch
-      
-   twitter:
-      description: A SocialMedia Command
-      Usage: /twitter
-      
-   website:
-      description: A SocialMedia Command
-      Usage: /website
-      aliases: [web]
-      
-   youtube:
-      description: A SocialMedia Command
-      Usage: /youtube
-      aliases: [yt]
-      
-   socialconfig:
-      description: This Command can Reload the Config!
-      Usage: /socialconfig
+   SocialMediaManager:
+      description: Erstelle / Entferne einen Command!
+      Usage: /SocialMediaManager help
+      aliases: [smm, socialmedia] 
